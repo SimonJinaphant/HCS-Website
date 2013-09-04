@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Department of Computer Science</title>
+	<meta charset="UTF-8">
+	<link href="browser_reset.css" rel="stylesheet" />
+	<link href="global.css" rel="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/jquery.scrollTo.js" type="text/javascript"></script>
+	<script src="js/jquery.nav.js" type="text/javascript"></script>
+	<script type="text/javascript">			
+		$(document).ready(function() {
+			$('#main_nav').onePageNav({
+			    scrollSpeed: 650,
+			    scrollOffset: 80,
+			});
+		});	
+	</script>
+</head>
+<body>
+
+	<header>
+		<div class="contained">
+			<h1>DEPARTMENT OF <span class="blue">COMPUTER SCIENCE</span></h1>
+			<nav>
+				<ul id="main_nav">
+					<li class="current"><a href="#home">HOME</a></li>
+					<li><a href="#accomplishments">ACCOMPLISHMENTS</a></li>
+					<li><a href="#course_outline">COURSE OUTLINE</a></li>
+					<li><a href="#resources">RESOURCES</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<div id="header_space"></div>
+	
+	<div id="mainContent">
+		<section id="home">
+			<article class="contained">
+				<div class="text_information">
+					<h1><span class="blue">WHAT IS</span> COMPUTER SCIENCE?</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+						Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+						Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+						Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, 
+						venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
+						Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, 
+						eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. 
+						Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+						Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+					</p>
+					
+					<br><br>
+					
+					<h1><span class="blue">WHY TAKE</span> COMPUTER SCIENCE?</h1>
+					<p>
+						Venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
+						Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, 
+						eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. 
+						Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+						Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+					</p>
+
+				</div>
+				<div class="media_information">
+					<!-- TODO: FIND A TALL IMAGE TO PLACE HERE...-->
+				</div>
+			</article>
+		</section>
+		
+		
+		
+		<section id="accomplishments" class="dark_blue_highlight">
+			<article class="contained centralized">
+				<h1><span class="light_blue">ACCOMPLISHMENTS</span> HISTORY</h1>
+				<p>
+					Our students compete against other schools on a nation wide scale</br>
+					Some of our students even compete against university students and still managed to be placed in the top ranks</br>
+				</p>
+			</article>
+		
+			<article class="contained">
+				<div class="text_information">
+				<h1><span class="light_blue">CANADIAN COMPUTING</span> COMPETITION</h1>
+					<p>
+						Every year, students of all programming levels are given to opportunity to compete in the 
+						Canadian Computing Competition (CCC) which is hosted by the University of Waterloo. 
+						This three hour competition consist of five problems students must solve by developing a computational solution. 
+						The difficulties ranges from applying easy computation concepts to more challenging algorithms and dynamic programming techniques. 
+						The student(s) who score the highest in each provincial groups are awarded a plaque, 
+						and students who score above a certain range will also receive special acknowledgements.
+						<br><br>
+						Hamber students have demonstrated top performance in the CCC for a total of six times, 
+						and are currently on a four year consecutive streak. 
+						Majority of the students who won have achieved perfect scores in the competition.
+						<br><br>
+					</p>
+				</div>
+				
+				<div class="text_information">
+					<h1 class="centralized"><span class="light_blue">WESTERN CANADIAN</span> JUNIOR CCC CHAMPIONS</h1>
+					<ol id="timeline">
+						<li><h1>2013</h1><hr>Jasper Chapman-Black</br>Phillip Wong</br>Emmanuel Sales</br>Ari Blondal</li>
+						<li><h1>2012</h1><hr>Ulysses Zheng</li>
+						<li><h1>2011</h1><hr>Leon Jiang</li>
+						<li><h1>2010</h1><hr>Kevin Luo</li>
+						<li><h1>2008</h1><hr>David Woods</li>
+						<li><h1>2007</h1><hr>Sanae Rosen</li>
+					</ol>
+				</div>
+				
+			</article>
+		</section>
+		
+		
+		
+		<section id="course_outline">
+			<article class="contained centralized">
+				<h1><span class="blue">COURSE</span> OUTLINE</h1>
+				<p>
+					Hamber's Department of Computer Science offers three courses. All of these courses are taught in the Linux Lab (Room 307).<br>
+					The programming languages and libraries used in class are all cross platform, so students are able to<br>
+					develop and run their applications at home on different Operating Systems (Windows, Mac, Linux).
+				</p>
+			</article>
+			
+			<div id="junior" class="dark_blue_highlight courses">
+				<article class="contained">
+					<div class="text_information">
+						<h1><span class="light_blue">JUNIOR</span> PROGRAMMING</h1>
+						<h2><strong>COURSE CODE:</strong> INT10/ICTP11A</h2>
+						<p>
+							This course is designed for students who haven’t had any previous experience in programming, 
+							although anyone who wants a review are more than welcomed to joined.
+							Students taking this course will be introduced to fundamental concepts of programming in the Python language, 
+							along with learning how to utilize the basics of a UNIX system. 
+							By the end of the course students should have a good understanding of the following concepts:
+						</p>
+						<ul>
+							<li>Basic UNIX Commands</li>
+							<li>Python Language Fundamentals</li>
+							<li>SSH and remote login</li>
+							<li>Binary Arithmetic</li>
+							<li>TCP and UDP Network</li>
+						</ul>
+					</div>
+					<div class="media_information">
+						<img src="images/python_logo.png" alt="none">
+					</div>
+				</article>
+			</div>
+		
+		
+			<div id="intermediate" class="white_highlight courses">
+				<article class="contained">
+					<div class="media_information">
+						<img src="images/intermediate.png" alt="none">
+					</div>
+					<div class="text_information">
+						<h1><span class="blue">INTERMEDIATE</span> PROGRAMMING</h1>
+						<h2><strong>COURSE CODE:</strong> ICTP11B / ICTP12A</h2>
+						<p>
+							This is the next level course for programming and is intended for students who have successfully completed the junior course, 
+							or students that have demonstrated understanding of junior-level programming concepts. 
+							This year students will be introduced to the Object Oriented Programming paradigm and will be able to 
+							demonstrate their understanding by utilizing popular libraries such as SFML, Pygame, and FLTK. 
+							The purpose of the intermediate course is to have students learn how to develop full applications.
+						</p>
+						<ul>
+							<li>Object Oriented Programming concepts</li>
+							<li>Deeper understanding of networking</li>
+							<li>SFML Toolkit</li>
+							<li>Pygame</li>
+							<li>FLTK library</li>
+						</ul>
+					</div>
+					
+				</article>
+			</div>
+
+		
+			<div id="senior" class="dark_blue_highlight courses">
+				<article class="contained">
+					<div class="text_information">
+						<h1><span  class="light_blue">SENIOR</span> PROGRAMMING</h1>
+						<h2><strong>COURSE CODE:</strong> ICTP12B</h2>
+						<p>
+							This is the final course offered for programming. Students who are taking this course will be introduced to the C/C++ language. 
+							Previously used libraries such as FLTK and SFML will be revisited in C++. 
+							This course is focused on teaching higher level programming concepts such as dynamic memory allocation, pointers, inheritance, and polymorphism. 
+							Students will also learn special skills such as Linux system administration, along with micro computer programming via an Arduino.
+						</p>
+						<ul>
+							<li>C/C++ Language Fundamentals</li>
+							<li>More Algorithms</li>
+							<li>Linux System Administration</li>
+							<li>Micro computer programming via Arduino</li>
+						</ul>
+					</div>
+					<div class="media_information">
+						<img src="images/senior.png" alt="none">
+					</div>
+				</article>
+			</div>
+		</section>
+		
+		
+		
+		<section id="resources">
+			<article class="contained centralized">
+				<h1><span class="blue">STUDENT</span> RESOURCES</h1>
+				<p>
+					BETTER LIST OF RESOURCES COMING SOON...
+				</p>
+			</article>			
+		</section>
+
+		
+		
+		<footer>
+			<div class="contained">
+				<p>
+					Site design by Simon J. *insert intellectual property protection stuff here...*
+				</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

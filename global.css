@@ -1,0 +1,236 @@
+/*
+	THEME COLORS
+	---------------------------------
+		White: #FFF
+		Grey-Blue: #F0F3F6
+		Light Blue: #20ADD2
+		Blue: #027FB9
+		
+		Dark Blue Background: #182430
+		
+		Grey Shadow: rgba(0,0,0,0.30)
+		
+		Black Font: #111111
+		Grey Font: #444444
+		Light Grey Font: #9EACBE;
+	
+*/
+/*------------------------------BASES------------------------------*/
+body{
+	background-color: #FFF;
+	font-family: "Open Sans";
+	font-size: 14px;
+	color:#444444;
+	text-align: justify;
+	
+}
+
+.contained{
+	width: 980px;
+	margin: 0px auto;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.centralized{
+	text-align: center;
+	text-indent: 40px;
+}
+
+.text_information{
+	display: inline-block;
+	width: 680px;
+	padding:0px 20px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+}
+
+.media_information{
+	display: inline-block;
+	width: 240px;
+	
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+}
+
+/*------------------------------HEADER------------------------------*/
+header{
+	top:0;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	z-index: 100;
+	overflow: hidden;
+	
+	margin-bottom: 50px;
+	padding-top: 20px;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.30);
+	background: url("images/bg-top-shadow.png") no-repeat scroll center bottom #FFFFFF;
+}
+
+header h1{
+	display: inline;
+	margin-left: 20px;
+	font-size: 18px;
+	font-family: "Ubuntu";
+	color: #111;
+}
+
+header nav{
+	display: inline;
+	float: right;
+
+}
+
+header nav ul li{
+	display: inline-block;
+	margin: 0px 15px;
+}
+
+header nav ul li a{
+	display: inline-block;
+	padding-bottom: 15px;
+	border-bottom: 4px solid transparent;
+	
+	-webkit-transition: color 0.6s, border-color 0.6s;
+	-moz-transition: color 0.6s, border-color 0.6s;
+	-o-transition: color 0.6s, border-color 0.6s;
+}
+
+header nav ul li:hover a, .current a{
+	border-bottom:4px solid #027FB9;
+	color: #027FB9;
+}
+
+/*------------------------------MAIN CONTENT------------------------------*/
+#mainContent{
+	margin-top: 80px;
+}
+
+#mainContent section{
+	padding: 45px 0px;
+	font-size: 15px;
+	line-height: 24px;
+	color: #111111;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+#mainContent section article{
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+
+#mainContent section article h1{
+	font-family: "Ubuntu";
+	font-size: 24px;
+}
+
+#mainContent section article h2{
+	font-family: "Ubuntu";
+	font-size: 16px;
+}
+
+#mainContent section article p{
+	text-indent: 40px;
+	margin: 10px 0px;
+}
+
+#mainContent section article ul{
+	list-style-position:inside;
+	text-indent: 40px;
+}
+
+/*------------------------------MISC------------------------------*/
+.dark_blue_highlight{
+	background: url("images/bg-top-shadow.png") no-repeat scroll center top, url("images/bg-bottom-shadow.png") no-repeat scroll center bottom #182430;
+	color: #9EACBE;
+}
+
+.dark_blue_highlight h1{ color: #FFFFFF; }
+.dark_blue_highlight article p, .dark_blue_highlight article .text_information{ color: #9EACBE; }
+.light_blue{ color: #20add2; }
+
+.blue{ color:#027FB9; }
+.white_highlight{ background: url("images/bg-top-shadow.png") no-repeat scroll center top, url("images/bg-bottom-shadow.png") no-repeat scroll center bottom #FFFFFF; }
+
+#accomplishments article .text_information{
+	width: 100%;
+}
+
+.courses{
+	padding:40px 0px;
+}
+
+
+
+#mainContent #course_outline{
+	background: url("images/bg-top-shadow.png") no-repeat scroll center top #FFFFFF;
+	padding-bottom: -45px;
+}
+
+
+/*------------------------------TIMELINE------------------------------*/
+#timeline {
+	overflow: hidden;
+	width: 60%;
+	margin: 30px auto 0px;
+}
+
+#timeline li {
+	display:block;
+	clear: both;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 251px;
+	text-transform: uppercase;
+}
+
+#timeline hr{
+	background-color: #C5CBD4;
+    border: 0 none;
+    color: #C5CBD4;
+    height: 2px;
+}
+
+#timeline li:nth-child(odd){
+	float:right;
+	padding-left: 30px;
+	border-left: 2px solid #C5CBD4;
+}
+
+#timeline li:nth-child(even){
+	float:left;
+	text-align: right;
+	padding-right: 30px;
+	border-right: 2px solid #C5CBD4;
+}
+
+
+/*------------------------------FOOTER------------------------------*/
+
+footer{
+	font-size: 14px;
+	box-shadow: 0px -1px 2px rgba(0,0,0,0.30);
+	padding: 20px 0px;
+	background: url("images/bg-bottom-shadow.png") no-repeat scroll center bottom #333A40;
+}
+
+footer p{
+	font-family: "Open Sans";
+	font-size: 12px;
+	color: #9EACBE;
+}
