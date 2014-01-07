@@ -17,7 +17,7 @@
 */
 /*------------------------------BASES------------------------------*/
 body{
-	background-color: #FFF;
+	background-color: #f3f3f3;
 	font-family: "Open Sans";
 	font-size: 14px;
 	color:#444444;
@@ -25,10 +25,25 @@ body{
 	
 }
 
+.banner{
+	width: 1200px;
+	height: 480px;
+	overflow: hidden;
+	margin-bottom: 50px;
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.20);
+}
+
+.banner .banner_description{
+	position: absolute;
+	margin-top: 240px;
+	width: 680px;
+	height: 160px;
+	background: rgba(0,0,0,0.70);
+}
+
 .contained{
-	width: 980px;
 	margin: 0px auto;
-	
+	width: 1200px;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -41,13 +56,14 @@ body{
 
 .text_information{
 	display: inline-block;
-	width: 680px;
-	padding:0px 20px;
+	width: 880px;
+	padding:0px 80px;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 
 }
+
 
 .media_information{
 	display: inline-block;
@@ -65,7 +81,7 @@ header{
 	top:0;
 	position: fixed;
 	width: 100%;
-	height: 60px;
+	height: 50px;
 	z-index: 100;
 	overflow: hidden;
 	
@@ -89,7 +105,6 @@ header h1{
 header nav{
 	display: inline;
 	float: right;
-
 }
 
 header nav ul li{
@@ -99,7 +114,7 @@ header nav ul li{
 
 header nav ul li a{
 	display: inline-block;
-	padding-bottom: 15px;
+	padding-bottom: 8px;
 	border-bottom: 4px solid transparent;
 	
 	-webkit-transition: color 0.6s, border-color 0.6s;
@@ -114,11 +129,15 @@ header nav ul li:hover a, .current a{
 
 /*------------------------------MAIN CONTENT------------------------------*/
 #mainContent{
-	margin-top: 80px;
+	margin: 70px auto 0px;
+	width: 1200px;
+	background: #FFF;
+	box-shadow: 0px 20px 20px rgba(0,0,0,0.35);
+
 }
 
 #mainContent section{
-	padding: 45px 0px;
+	padding-bottom: 60px;
 	font-size: 15px;
 	line-height: 24px;
 	color: #111111;
@@ -129,7 +148,7 @@ header nav ul li:hover a, .current a{
 }
 
 #mainContent section article{
-	margin-top: 10px;
+	margin-top: 30px;
 	padding-bottom: 30px;
 }
 
@@ -159,7 +178,7 @@ header nav ul li:hover a, .current a{
 	color: #9EACBE;
 }
 
-.dark_blue_highlight h1{ color: #FFFFFF; }
+.dark_blue_highlight h1{ color: #F9F8F8; }
 .dark_blue_highlight article p, .dark_blue_highlight article .text_information{ color: #9EACBE; }
 .light_blue{ color: #20add2; }
 
@@ -174,11 +193,13 @@ header nav ul li:hover a, .current a{
 	padding:40px 0px;
 }
 
-
-
 #mainContent #course_outline{
 	background: url("images/bg-top-shadow.png") no-repeat scroll center top #FFFFFF;
-	padding-bottom: -45px;
+	padding-bottom: 0px;
+}
+
+#intermediate .contained{
+	padding-left: 70px;
 }
 
 
@@ -208,14 +229,14 @@ header nav ul li:hover a, .current a{
 
 #timeline li:nth-child(odd){
 	float:right;
-	padding-left: 30px;
+	padding-left: 60px;
 	border-left: 2px solid #C5CBD4;
 }
 
 #timeline li:nth-child(even){
 	float:left;
 	text-align: right;
-	padding-right: 30px;
+	padding-right: 60px;
 	border-right: 2px solid #C5CBD4;
 }
 
@@ -224,9 +245,10 @@ header nav ul li:hover a, .current a{
 
 footer{
 	font-size: 14px;
+	height: 30px;
 	box-shadow: 0px -1px 2px rgba(0,0,0,0.30);
 	padding: 20px 0px;
-	background: url("images/bg-bottom-shadow.png") no-repeat scroll center bottom #333A40;
+	background: url("images/bg-bottom-shadow.png") no-repeat scroll center bottom #182430;
 }
 
 footer p{
