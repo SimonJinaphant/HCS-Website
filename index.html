@@ -5,20 +5,12 @@
 	<meta charset="UTF-8">
 	<link href="browser_reset.css" rel="stylesheet" />
 	<link href="global.css" rel="stylesheet" />
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'/>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	<script src="js/jquery.js" type="text/javascript"></script>
 	<script src="js/jquery.scrollTo.js" type="text/javascript"></script>
 	<script src="js/jquery.nav.js" type="text/javascript"></script>
-	<script type="text/javascript">			
-		$(document).ready(function() {
-			$('#main_nav').onePageNav({
-			    scrollSpeed: 650,
-			    scrollOffset: 70,
-			});
-		});	
-	</script>
-</head>
+	</head>
 <body>
 
 	<header>
@@ -40,6 +32,10 @@
 	<div id="mainContent">
 		<section id="home">
 			<div class="banner">
+				<div class="banner_description">
+					<h1>ERIC HAMBER'S DEPARTMENT OF </br><span class="light_blue">COMPUTER SCIENCE</span></h1></br>
+					<p>Welcome to the start of a journey into the growing field of computer science</p>
+				</div>
 				<img src="images/class.jpg" alt="none">
 			</div>
 			<article class="contained">
@@ -80,29 +76,21 @@
 		<section id="accomplishments" class="dark_blue_highlight">
 			<div class="banner">
 				<div class="banner_description">
-					<!--<h1>TITLE</h1>
-					<p>Venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>-->
+					<h1>OUR <span class="light_blue">ACCOMPLISHMENTS</span></h1>
+					<h2>AND NATIONAL <span class="light_blue">RECOGNITION</span></h2></br>
+					<p>We achieve top ranks in nation-wide competitions against other schools and universities</p>
 				</div>
 				<img src="images/awards.jpg" alt="none">
 			</div>
-			<article class="contained centralized">
-				
-				<h1><span class="light_blue">ACCOMPLISHMENTS</span> HISTORY</h1>
-				<p>
-					Our students compete against other schools on a nation wide scale</br>
-					Some of our students even compete against university students and still managed to be placed in the top ranks</br>
-				</p>
-			</article>
 		
 			<article class="contained">
 				<div class="text_information">
 				<h1><span class="light_blue">CANADIAN COMPUTING</span> COMPETITION</h1>
 					<p>
-						Every year, students of all programming levels are given to opportunity to compete in the 
-						Canadian Computing Competition (CCC) which is hosted by the University of Waterloo. 
-						This three hour competition consist of five problems students must solve by developing a computational solution. 
+						Every year, students of all programming levels are given the opportunity to compete in the Canadian Computing Competition (CCC). 
+						This three hour competition consist of five problems students must solve by developing computational solutions. 
 						The difficulties ranges from applying easy computation concepts to more challenging algorithms and dynamic programming techniques. 
-						The student(s) who score the highest in each provincial groups are awarded a plaque, 
+						The students who score the highest in each provincial groups are awarded a plaque, 
 						and students who score above a certain range will also receive special acknowledgements.
 						<br><br>
 						Hamber students have demonstrated top performance in the CCC for a total of six times, 
@@ -113,7 +101,7 @@
 				</div>
 
 				<div class="text_information">
-					<h1 class="centralized"><span class="light_blue">WESTERN CANADIAN</span> JUNIOR CCC CHAMPIONS</h1>
+					<h1 class="centralized"><span class="light_blue">HAMBER'S</span> JUNIOR CCC CHAMPIONS</h1>
 					<ol id="timeline">
 						<li><h1>2013</h1><hr>Jasper Chapman-Black</br>Phillip Wong</br>Emmanuel Sales</br>Ari Blondal</li>
 						<li><h1>2012</h1><hr>Ulysses Zheng</li>
@@ -131,11 +119,15 @@
 		
 		<section id="course_outline">
 			<div class="banner">
+				<div class="banner_description">
+					<h1>REGISTER A SELECTIONS OF <span class="light_blue">COURSES,</span></h1>
+					<h2>YOU'LL HAVE AN <span class="light_blue">UNFORGETTABLE TIME</span></h2></br>
+					<p>We offer courses for students of all skill levels</p>
+				</div>
 				<img src="images/board.jpg" alt="none">
 			</div>
+
 			<article class="contained centralized">
-				
-				<h1><span class="blue">COURSE</span> OUTLINE</h1>
 				<p>
 					Hamber's Department of Computer Science offers three courses. All of these courses are taught in the Linux Lab (Room 307).<br>
 					The programming languages and libraries used in class are all cross platform, so students are able to<br>
@@ -149,18 +141,19 @@
 						<h1><span class="light_blue">JUNIOR</span> PROGRAMMING</h1>
 						<h2><strong>COURSE CODE:</strong> INT10/ICTP11A</h2>
 						<p>
-							This course is designed for students who haven’t had any previous experience in programming, 
-							although anyone who wants a review are more than welcomed to joined.
+							Junior Programming is designed for students who never had any previous experience in computer science, 
+							although anyone who wants a review of the foundations are welcomed to joined. 
 							Students taking this course will be introduced to fundamental concepts of programming in the Python language, 
 							along with learning how to utilize the basics of a UNIX system. 
+							Basic hardware concepts such as logic gates and the binary system will also be introduced. 
 							By the end of the course students should have a good understanding of the following concepts:
 						</p>
 						<ul>
 							<li>Basic UNIX Commands</li>
 							<li>Python Language Fundamentals</li>
-							<li>SSH and remote login</li>
+							<li>Usage of SSH and remote logins</li>
 							<li>Binary Arithmetic</li>
-							<li>TCP and UDP Network</li>
+							<li>TCP and UDP Network Protocols</li>
 						</ul>
 					</div>
 					<div class="media_information">
@@ -179,18 +172,17 @@
 						<h1><span class="blue">INTERMEDIATE</span> PROGRAMMING</h1>
 						<h2><strong>COURSE CODE:</strong> ICTP11B / ICTP12A</h2>
 						<p>
-							This is the next level course for programming and is intended for students who have successfully completed the junior course, 
-							or students that have demonstrated understanding of junior-level programming concepts. 
-							This year students will be introduced to the Object Oriented Programming paradigm and will be able to 
-							demonstrate their understanding by utilizing popular libraries such as SFML, Pygame, and FLTK. 
-							The purpose of the intermediate course is to have students learn how to develop full applications.
+							This is the next level course intended for students who have successfully completed the junior course, 
+							or students that have demonstrated understanding of junior-level programming concepts. This year students will be introduced to the Object Oriented Programming paradigm. 
+							Students will also be able to demonstrate their deeper understanding of programming by utilizing popular libraries such as SFML, Pygame, and pyFLTK. 
+							The purpose of the intermediate course is to have students learn how to develop full applications from what they know. 
+							Students should have experience in the following by the end of the year:
 						</p>
 						<ul>
 							<li>Object Oriented Programming concepts</li>
+							<li>Utilizing and Managing Virtual Machines</li>
+							<li>Libraries such as SFML, Pygame and FLTK</li>
 							<li>Deeper understanding of networking</li>
-							<li>SFML Toolkit</li>
-							<li>Pygame</li>
-							<li>FLTK library</li>
 						</ul>
 					</div>
 					
@@ -204,14 +196,15 @@
 						<h1><span  class="light_blue">SENIOR</span> PROGRAMMING</h1>
 						<h2><strong>COURSE CODE:</strong> ICTP12B</h2>
 						<p>
-							This is the final course offered for programming. Students who are taking this course will be introduced to the C/C++ language. 
-							Previously used libraries such as FLTK and SFML will be revisited in C++. 
-							This course is focused on teaching higher level programming concepts such as dynamic memory allocation, pointers, inheritance, and polymorphism. 
+							The final course offered for experienced students interested in computer science. 
+							Students who are taking this course will be introduced to the C/C++ language, along with revisiting libraries such as FLTK and SFML in its native form. 
+							This course involves teaching higher level programming concepts such as dynamic memory allocation and pointers. 
+							Special mathematical concepts such as integration and linear matrix algebra will also be lightly introduced, giving students a head start in preparation for post-secondary. 
 							Students will also learn special skills such as Linux system administration, along with micro computer programming via an Arduino.
 						</p>
 						<ul>
 							<li>C/C++ Language Fundamentals</li>
-							<li>More Algorithms</li>
+							<li>Exposure to post-secondary level Mathematics</li>
 							<li>Linux System Administration</li>
 							<li>Micro computer programming via Arduino</li>
 						</ul>
@@ -227,6 +220,11 @@
 		
 		<section id="resources">
 			<div class="banner">
+				<div class="banner_description">
+					<h1><span class="light_blue">RESOURCES</span> FOR STUDENTS;</h1>
+					<h2>A COLLECTION WITH <span class="light_blue">HIGH RECOMMENDEDATIONS</span></h2></br>
+					<p>If you're eager to learn on your own time check out these free resources</p>
+				</div>
 				<img src="images/class.jpg" alt="none">
 			</div>
 			<article class="contained centralized">
@@ -248,4 +246,13 @@
 	</div>
 
 </body>
+<script type="text/javascript">			
+	$(document).ready(function() {
+		$('#main_nav').onePageNav({
+		    scrollSpeed: 650,
+		    scrollOffset: 70,
+		});
+	});	
+</script>
+
 </html>

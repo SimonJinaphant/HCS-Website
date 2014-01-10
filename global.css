@@ -25,22 +25,6 @@ body{
 	
 }
 
-.banner{
-	width: 1200px;
-	height: 480px;
-	overflow: hidden;
-	margin-bottom: 50px;
-	box-shadow: 0px 3px 6px rgba(0,0,0,0.20);
-}
-
-.banner .banner_description{
-	position: absolute;
-	margin-top: 240px;
-	width: 680px;
-	height: 160px;
-	background: rgba(0,0,0,0.80);
-}
-
 .contained{
 	margin: 0px auto;
 	width: 1200px;
@@ -69,11 +53,9 @@ body{
 	display: inline-block;
 	width: 240px;
 	
-	
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-
 }
 
 /*------------------------------HEADER------------------------------*/
@@ -97,8 +79,8 @@ header{
 header h1{
 	display: inline;
 	margin-left: 20px;
-	font-size: 18px;
-	font-family: "Ubuntu";
+	font-size: 20px;
+	font-family: "Open Sans";
 	color: #111;
 }
 
@@ -132,8 +114,7 @@ header nav ul li:hover a, .current a{
 	margin: 70px auto 0px;
 	width: 1200px;
 	background: #FFF;
-	box-shadow: 0px 20px 20px rgba(0,0,0,0.30);
-
+	box-shadow: 0px 20px 10px rgba(0,0,0,0.30);
 }
 
 #mainContent section{
@@ -141,6 +122,8 @@ header nav ul li:hover a, .current a{
 	font-size: 15px;
 	line-height: 24px;
 	color: #111111;
+	
+	padding-bottom: 120px;
 	
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -150,26 +133,28 @@ header nav ul li:hover a, .current a{
 #mainContent section article{
 	margin-top: 30px;
 	padding-bottom: 30px;
+	color:rgb(91, 96, 100);
 }
 
 #mainContent section article h1{
-	font-family: "Ubuntu";
-	font-size: 24px;
+	font-family: "Roboto";
+	font-size: 32px;
+	margin-bottom: 10px;
+	color: rgb(65, 65, 65);
 }
 
 #mainContent section article h2{
-	font-family: "Ubuntu";
+	font-family: "Roboto";
 	font-size: 16px;
 }
 
 #mainContent section article p{
-	text-indent: 40px;
-	margin: 10px 0px;
+	margin: 20px 0px 10px;
 }
 
 #mainContent section article ul{
 	list-style-position:inside;
-	text-indent: 40px;
+	text-indent: 30px;
 }
 
 /*------------------------------MISC------------------------------*/
@@ -177,9 +162,8 @@ header nav ul li:hover a, .current a{
 	background: #182430;
 	color: #9EACBE;
 }
-
-.dark_blue_highlight h1{ color: #F9F8F8; }
 .dark_blue_highlight article p, .dark_blue_highlight article .text_information{ color: #9EACBE; }
+#mainContent .dark_blue_highlight h1{ color: #dae1e8; }
 .light_blue{ color: #33a9c6; }
 
 .blue{ color:#027FB9; }
@@ -190,7 +174,7 @@ header nav ul li:hover a, .current a{
 }
 
 .courses{
-	padding: 40px 0px;
+	padding: 30px 0px;
 }
 
 #mainContent #course_outline{
@@ -203,7 +187,7 @@ header nav ul li:hover a, .current a{
 }
 
 
-/*------------------------------TIMELINE------------------------------*/
+/*------------------------------CCC CHAMPION TIMELINE------------------------------*/
 #timeline {
 	overflow: hidden;
 	width: 60%;
@@ -238,6 +222,38 @@ header nav ul li:hover a, .current a{
 	text-align: right;
 	padding-right: 60px;
 	border-right: 2px solid #C5CBD4;
+}
+
+/*------------------------------BANNER------------------------------*/
+.banner{
+	width: 1200px;
+	height: 520px;
+	overflow: hidden;
+	margin-bottom: 50px;
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.20);
+}
+
+.banner .banner_description{
+	padding: 30px 30px 30px 80px;
+	font-family: "Roboto";
+	font-size: 18px;
+	position: absolute;
+	margin-top: 200px;
+	
+	background: rgba(0,0,0,0.80);
+	color:#dae1e8;
+	line-height: 20px;
+}
+
+.banner .banner_description h1{
+	font-size: 35px;
+	line-height: 40px;
+	margin-bottom: 5px;
+}
+
+.banner .banner_description h2{
+	font-size: 25px;
+	margin-bottom: 20px;
 }
 
 
