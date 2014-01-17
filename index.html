@@ -6,16 +6,13 @@
 	<link href="browser_reset.css" rel="stylesheet" />
 	<link href="global.css" rel="stylesheet" />
 	<link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-	<script src="js/jquery.js" type="text/javascript"></script>
-	<script src="js/jquery.scrollTo.js" type="text/javascript"></script>
-	<script src="js/jquery.nav.js" type="text/javascript"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	</head>
 <body>
 
 	<header>
 		<div class="contained">
-			<h1>DEPARTMENT OF <span class="blue">COMPUTER SCIENCE</span></h1>
+			<h1>HAMBER <span class="blue">COMPUTER SCIENCE</span></h1>
 			<nav>
 				<ul id="main_nav">
 					<li class="current"><a href="#home">HOME</a></li>
@@ -33,10 +30,10 @@
 		<section id="home">
 			<div class="banner">
 				<div class="banner_description">
-					<h1>ERIC HAMBER'S DEPARTMENT OF </br><span class="light_blue">COMPUTER SCIENCE</span></h1></br>
-					<p>Welcome to the start of a journey into the growing field of computer science</p>
+					<h1>HAMBER'S DEPARTMENT OF </br><span class="light_blue">COMPUTER SCIENCE</span></h1></br>
+					<p>The start of your journey into the study of modern day technology</p>
 				</div>
-				<img src="images/class.jpg" alt="none">
+				<img src="images/classroom.jpg" alt="none">
 			</div>
 			<article class="contained">
 				<div class="text_information">
@@ -76,9 +73,9 @@
 		<section id="accomplishments" class="dark_blue_highlight">
 			<div class="banner">
 				<div class="banner_description">
-					<h1>OUR <span class="light_blue">ACCOMPLISHMENTS</span></h1>
+					<h1>OUR PROUD <span class="light_blue">ACCOMPLISHMENTS</span></h1>
 					<h2>AND NATIONAL <span class="light_blue">RECOGNITION</span></h2></br>
-					<p>We achieve top ranks in nation-wide competitions against other schools and universities</p>
+					<p>We achieve top ranks in nation-wide competitions, even against universities!</p>
 				</div>
 				<img src="images/awards.jpg" alt="none">
 			</div>
@@ -120,11 +117,11 @@
 		<section id="course_outline">
 			<div class="banner">
 				<div class="banner_description">
-					<h1>REGISTER A SELECTIONS OF <span class="light_blue">COURSES,</span></h1>
+					<h1>REGISTER IN A SELECTION OF <span class="light_blue">COURSES</span></h1>
 					<h2>YOU'LL HAVE AN <span class="light_blue">UNFORGETTABLE TIME</span></h2></br>
-					<p>We offer courses for students of all skill levels</p>
+					<p>We're offering courses intended for students with different skill levels</p>
 				</div>
-				<img src="images/board.jpg" alt="none">
+				<img src="images/courses.jpg" alt="none">
 			</div>
 
 			<article class="contained centralized">
@@ -221,18 +218,44 @@
 		<section id="resources">
 			<div class="banner">
 				<div class="banner_description">
-					<h1><span class="light_blue">RESOURCES</span> FOR STUDENTS;</h1>
-					<h2>A COLLECTION WITH <span class="light_blue">HIGH RECOMMENDEDATIONS</span></h2></br>
-					<p>If you're eager to learn on your own time check out these free resources</p>
+					<h1><span class="light_blue">RESOURCES</span> FOR STUDENTS</h1>
+					<h2>WHEN LEARNING <span class="light_blue">INDEPENDENTLY</span></h2></br>
+					<p>A collection of free resources to assist you in your learnings</p>
 				</div>
-				<img src="images/class.jpg" alt="none">
+				<img src="images/resources.jpg" alt="none">
 			</div>
 			<article class="contained centralized">
 				
-				<h1><span class="blue">STUDENT</span> RESOURCES</h1>
-				<p>
-					BETTER LIST OF RESOURCES COMING SOON...
-				</p>
+				<a class="resource_box" href="http://interactivepython.org/courselib/static/thinkcspy/toc.html">
+					<h1>Think like a Computer Scientist</h1>
+					<h2>Web-book - Python 3.0</h2>
+					<p>A great web-based book with runnable examples on the topic of computative problem solving using python</p>
+				</a>
+				<a class="resource_box" href="http://files.swaroopch.com/python/byteofpython_120.pdf">
+					<h1>Byte of Python</h1>
+					<h2>PDF Book - Python 2.7+</h2>
+					<p>A concise and to-the-point python book, this book is also used for the junior programming course</p>
+				</a>
+				<a class="resource_box" href="http://docs.python.org/2/tutorial/">
+					<h1>Official Python tutorial</h1>
+					<h2>Documentation - Python 2.7+</h2>
+					<p>The official documentation and tutorial from the python website</br></br></p>
+				</a>
+				<a class="resource_box" href="http://learnpythonthehardway.org/book/">
+					<h1>Learn Python the Hardway</h1>
+					<h2>Web-book - Python 2.7+</h2>
+					<p>A popular web-based book covering foundational topics of python and problem solving.</p>
+				</a>
+				<a class="resource_box" href="http://www.pythontutor.com">
+					<h1>Python Tutor</h1>
+					<h2>Code Visualizer - Python 2.7+</h2>
+					<p>A web-based code visualizer capable of producing step-by-step visual representation of program execution</p>
+				</a>
+				<a class="resource_box" href="http://pymotw.com/2/contents.html">
+					<h1>Python Module of the Week</h1>
+					<h2>Documentation - Python 2.7+</h2>
+					<p>An in-depth documentation with code examples for some of Python's secret but powerful modules</p>
+				</a>
 			</article>			
 		</section>
 		
@@ -246,7 +269,10 @@
 	</div>
 
 </body>
-<script type="text/javascript">			
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.scrollTo.js" type="text/javascript"></script>
+<script src="js/jquery.nav.js" type="text/javascript"></script>
+<script type="text/javascript">	
 	$(document).ready(function() {
 		$('#main_nav').onePageNav({
 		    scrollSpeed: 650,
