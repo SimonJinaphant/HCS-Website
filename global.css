@@ -1,25 +1,12 @@
 /*
-	THEME COLORS
-	---------------------------------
-		White: #FFF
-		Grey-Blue: #F0F3F6
-		Light Blue: #20ADD2
-		Blue: #027FB9
-		
-		Dark Blue Background: #182430
-		
-		Grey Shadow: rgba(0,0,0,0.30)
-		
-		Black Font: #111111
-		Grey Font: #444444
-		Light Grey Font: #9EACBE;
-	
+	CSS Stylesheet for the Computer Science Website
+	Author: Simon Jinaphant
 */
 /*------------------------------BASES------------------------------*/
 body{
 	background: #F6F6F6;
 	font-family: "Open Sans";
-	font-size: 14px;
+	font-size: 15px;
 	color:#444444;
 	text-align: justify;
 	
@@ -113,7 +100,7 @@ header nav ul li:hover a, .current a{
 	margin: 70px auto 0px;
 	width: 1200px;
 	background: #FFF;
-	box-shadow: 0px 20px 10px rgba(0,0,0,0.30);
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.30);
 }
 
 #mainContent section{
@@ -130,7 +117,7 @@ header nav ul li:hover a, .current a{
 #mainContent section article{
 	margin-top: 30px;
 	padding-bottom: 30px;
-	color:rgb(91, 96, 100);
+	color:rgba(70,74,77,1);
 }
 
 #mainContent section article h1{
@@ -166,7 +153,7 @@ header nav ul li:hover a, .current a{
 .blue{ color:#027FB9; }
 .white_highlight{ background: #FFFFFF; }
 
-#accomplishments article .text_information{
+#accomplishments article .text_information, #home article .text_information, footer .text_information{
 	width: 100%;
 }
 
@@ -185,6 +172,12 @@ header nav ul li:hover a, .current a{
 
 #mainContent #resources{
 	padding-bottom: 0px;
+}
+
+#main_intro{
+	font-size: 20px;
+	font-family: "Roboto";
+	line-height: 30px;
 }
 
 /*------------------------------CCC CHAMPION TIMELINE------------------------------*/
@@ -225,6 +218,20 @@ header nav ul li:hover a, .current a{
 }
 
 /*------------------------------BANNER------------------------------*/
+#home_banner{
+	background:url("images/classroom.jpg") no-repeat;
+}
+#accomplishments_banner{
+	background:url("images/awards.jpg") no-repeat; 
+	
+}
+#courses_banner{
+	background:url("images/courses.jpg") no-repeat;
+}
+#resources_banner{
+	background:url("images/resources.jpg") no-repeat;
+}
+
 .banner{
 	width: 1200px;
 	height: 520px;
@@ -280,7 +287,9 @@ a.resource_box:hover{
 	color: #DAE1E8;
 	background: url('images/python_logo_mini.png') no-repeat right bottom #182430;
 }
-
+#mainContent a.resource_box h1{
+	line-height: 35px;
+}
 #mainContent a.resource_box:hover h1{
 	color: #DAE1E8;
 }
@@ -301,14 +310,26 @@ a.resource_box:nth-child(even){
 
 footer{
 	font-size: 14px;
-	height: 30px;
 	box-shadow: 0px -1px 2px rgba(0,0,0,0.30);
 	padding: 20px 0px;
 	background: #182430;
+	font-family: "Open Sans";
+	font-size: 14px;
+	color: #DAE1E8;
 }
 
 footer p{
-	font-family: "Open Sans";
-	font-size: 12px;
-	color: #9EACBE;
+	display: inline;
+	float: right;
+}
+
+footer ul{
+	list-style-type: none;
+	display: inline;
+	float: left;
+}
+
+footer ul li{
+	display: inline;
+	margin: 0px 5px;
 }
